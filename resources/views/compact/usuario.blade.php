@@ -57,6 +57,8 @@
                         <th>ID</th>
                         <th>Nombre</th>
                         <th>Cédula</th>
+                        <th>Cargo</th>
+                        <th>teléfono</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -65,6 +67,8 @@
                         <td>{{ $empleados->id }}</td>
                         <td>{{ $empleados->nombre }}</td>
                         <td>{{ $empleados->cedula }}</td>
+                        <td> {{$empleados->cargo}} </td>
+                        <td> {{$empleados->telefono}} </td>
                     </tr>
                     @endforeach
                 </tbody>
