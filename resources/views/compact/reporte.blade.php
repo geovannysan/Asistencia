@@ -5,7 +5,7 @@
     <div class=" d-flex  flex-wrap  align-items-center justify-content-center  items-top justify-center  ">
         <div class=" col-10 col-lg-4 pt-2 text-center">
             <label class="text-center fs-1 fw-bold pb-5">Reporte por fecha</label>
-            <input id="inicio" class="input-group form-control input-group-lg text-center" type="search" name="datefilter" value="" />
+            <input id="inicio" placeholder="Ingreso la fecha" class="input-group form-control input-group-lg text-center" type="search" name="datefilter" value="" />
             <button class=" mt-2 btn btn-success" onclick="Cargarfechas()">Consultar</button>
 
         </div>
