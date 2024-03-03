@@ -3,7 +3,9 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.4/jquery-confirm.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.4/jquery-confirm.min.js"></script>
-
+<script>
+    
+</script>
 <div class="  p-5 ">
     <div class="row text-center">
         <h4 class=" fw-bold">Registro de entradas y salidas</h4>
@@ -26,6 +28,11 @@
 
 </div>
 <script>
+    document.getElementById('cedula').addEventListener('keydown', function(event) {
+        if (event.key.length === 1 && !/\d/.test(event.key)) {
+            event.preventDefault(); 
+        }
+    });
     async function Obtener() {
         let cedula = document.getElementById("cedula").value;
         if (cedula == "") {

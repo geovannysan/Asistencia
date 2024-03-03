@@ -31,7 +31,8 @@ y modelo vista controlador
 
 
 ## Installation
-
+usuario con cédula 673304981 para prubas 
+existen otors nueve usuarion son cedulas randon
 Ejecutar en local
 Descargar xampp 
 importar base de datos entradas.sql
