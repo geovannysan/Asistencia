@@ -416,7 +416,7 @@
 
 <body class="vh-100 m-auto">
     
-    <div class=" flex items-top justify-center vh-100 items-center   py-4 sm:pt-0">
+    <div class=" flex items-top justify-center vh-100 items-center bg-gray-100 dark:bg-gray-900  py-4 sm:pt-0">
         
         <div class="d-flex card shadow-lg mx-2">
             @include('layout.ingreso')

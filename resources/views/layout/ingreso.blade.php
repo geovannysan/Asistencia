@@ -6,21 +6,21 @@
 
 <div class="  p-5 ">
     <div class="row text-center">
-        <h4>Registro de entradas y salidas</h4>
+        <h4 class=" fw-bold">Registro de entradas y salidas</h4>
     </div>
     <div class="row ">
         <input id="cedula" class=" input-group form-control input-group-lg text-center" type="search" name="cedula" placeholder="ingrese #cédula" id="">
     </div>
     <div class="row mt-3 ">
         <div class="col-6 ">
-            <button class=" btn  btn-primary" onclick="Obtener()"> Ingreso</button>
+            <button class=" btn  btn-primary text-white" onclick="Obtener()"> Ingreso</button>
         </div>
         <div class="col-6 text-end">
-            <button class="btn btn-danger    white " onclick="Salida()">Salida</button>
+            <a class="btn btn-danger text-white" onclick="Salida()">Salida</a>
 
         </div>
         <div class="col-12 mt-1">
-            <a class=" btn btn-secondary col-12" href="/reporte"> Ver reporte </a>
+            <a class=" btn btn-dark text-white col-12" href="/reporte"> Ver reporte </a>
         </div>
     </div>
 
