@@ -127,7 +127,7 @@
             dom: 'Bfrtip',
             "buttons": [{
                     "extend": 'excelHtml5',
-                    "text": 'Descargar',
+                    "text": 'Excel',
                     "title": 'Reporte de asistencia',
                     "className": 'btn btn-success '
                 },
