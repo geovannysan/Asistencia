@@ -40,9 +40,13 @@
     }
     .sidebar a {float: left;}
     div.content {margin-left: 0;}
+    .dataTables_filter{
+      margin-top: 15px !important;
+    }
   }
   
   @media screen and (max-width: 400px) {
+    
     .sidebar a {
       text-align: center;
       float: none;
