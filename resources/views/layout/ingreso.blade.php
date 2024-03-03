@@ -33,6 +33,11 @@
             event.preventDefault(); 
         }
     });
+    /**Obtner 
+     * Verifica si ya  una entrada por parte del empleado  con la cedula ingresada
+     *  para evitar que se puedan agregar mas
+     * y devuelve el mensaj
+     */
     async function Obtener() {
         let cedula = document.getElementById("cedula").value;
         if (cedula == "") {
@@ -69,6 +74,10 @@
         }
 
     }
+    /**Salida
+     * Veirfica si tiene entradada registrada y salida
+     * y reorna el mensaje
+     */
     async function Salida() {
         let cedula = document.getElementById("cedula").value;
         if (cedula == "") {
